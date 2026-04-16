@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mari Belajar</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #fff;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .container {
+            width: 300px;
+            height: 500px;
+            background-color: #F0E68C;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .header {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 13px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            margin-right: 200px;
+            font-family: jolly-Lodger;
+        }
+
+        .content {
+            margin-bottom: 20px;
+        }
+
+        .image img {
+            width: 200px;
+            height: auto;
+            margin-top: 50px ;
+        }
+
+        .quote {
+            font-size: 16px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .button-container {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .start-button {
+            background-color: #000;
+            color: #FFF;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .start-button:hover {
+            background-color: #333;
+        }
+        
+        .start-button a {
+            color: #FFF;
+            text-decoration: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+           <p>MariBelajar</p>
+        </div>
+        <div class="content">
+            <div class="image">
+                <img src="poto1.png" alt="Book and Mug">
+            </div>
+            <div class="quote">
+                “Orang bijak belajar ketika mereka bisa. Orang bodoh akan belajar ketika mereka terpaksa.”
+            </div>
+        </div>
+        <div class="button-container">
+            <button class="start-button"><a href="form.html">Mulai Belajar</a></button>
+        </div>
+    </div>
+</body>
+</html>

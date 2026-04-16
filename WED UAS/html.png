@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #000;
+        }
+
+        p {
+            font-size: 1em;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        @media (min-width: 769px) {
+            .container {
+                width: 80%;
+            }
+
+            h1 {
+                font-size: 2.5em;
+            }
+
+            p {
+                font-size: 1.2em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5em;
+            }
+
+            p {
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section>
+            <h1>Pengertian HTML</h1>
+            <p>HTML adalah singkatan dari Hypertext Markup Language, HTML merupakan salah satu bahasa pengkodean atau pemograman yang digunakan untuk membuat halaman website yang ditampilkan pada web browser. Sebagian besar halaman yang kamu temukan pada internet kebanyakan menggunakan Bahasa HTML.</p>
+        </section>
+        <section>
+            <h1>Sejarah singkat bahasa pemrograman HTML</h1>
+            <p>HTML diciptakan oleh Sir Tim Berners-Lee pada akhir tahun 1991 namun tidak dirilis secara resmi. Sir Tim Berners-Lee merilis HTML versi pertama pada tahun 1993 dengan tujuan untuk berbagi informasi yang dapat dibaca dan diakses melalui web browser.</p>
+            <p>Hingga saat ini versi HTML sudah mencapai versi 5 yang dirilis pada tahun 2012, Versi HTML 5 ini merupakan terusan dari perpanganan versi HTML 4.01 yang sebelumnya digunakan oleh kebanyakan orang.</p>
+        </section>
+        <section>
+            <h1>Kelebihan dan Kekurangan HTML</h1>
+            <p>Kelebihan HTML</p>
+            <ol>
+                <li>Memiliki banyak sumber dan komunitas yang sangat besar.</li>
+                <li>Bersifat Open Source sehingga gratis untuk digunakan</li>
+                <li>Memiliki Bahasa Markup yang konsisten dan rapi</li>
+                <li>Mudah diintegrasikan dengan Bahasa backend seperti PHP , Node.js dan javascript</li>
+                <li>Bisa dijalankan oleh semua Browser.</li>
+                <li>Dapat dipelajari dengan mudah oleh web developer pemula.</li>
+            </ol>
+            <p>Kekurangan HTML</p>
+            <ol>
+                <li>Bahasa pemograman HTML hanya dapat diimplementasikan untuk halaman web static . jika ingin menambah fitur dinamis, pengguna dapat menggunakan bahasa pemograman back-end seperti javascript atau Bahasa pemograman back-end lainnya.</li>
+                <li>Terdapat fitur baru yang tidak dapat dijalankan dengan cepat oleh web browser.</li>
+                <li>Bahasa pemograman HTML tidak mendukung logic sehingga semua halaman website harus dibuat secara terpisah.</li>
+            </ol>
+    </div>
+</body>
+</html>
